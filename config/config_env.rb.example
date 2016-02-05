@@ -1,4 +1,7 @@
 config_env :development do
-  set "USERNAME", "status"
-  set "PASSWORD", "status"
+  # optional
+  #set "USERNAME", "status"
+  #set "PASSWORD", "status"
+  
+  set "SERVICES", File.open("#{__dir__}/services.json", "r").read
 end

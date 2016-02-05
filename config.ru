@@ -8,10 +8,9 @@ ConfigEnv.path_to_config("#{__dir__}/config/config_env.rb")
 
 run Sinatra::Application
 
-# map "/" do
-#   use Rack::Auth::Basic, "Protected Area" do |username, password|
-#     username == ENV["USERNAME"] && password == ENV["PASSWORD"]
-#   end
-# end
+use Rack::Auth::Basic, "Protected Area" do |username, password|
+  [ENV["USERNAME"], ENV["PASSWORD"]].compact.empty? || username == ENV["USERNAME"] && password == ENV["PASSWORD"]
+end
+
 
 

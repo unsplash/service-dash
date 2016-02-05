@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Redis",
+    "url":  "https://status.redislabs.com",
+    "text": "All Systems Operational"
+  },
+  {
+    "name": "Memcachier",
+    "url":  "http://status.memcachier.com",
+    "text": "All systems go!"
+  }
+]
