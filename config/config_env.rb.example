@@ -1,0 +1,4 @@
+config_env :development do
+  set "USERNAME", "status"
+  set "PASSWORD", "status"
+end
