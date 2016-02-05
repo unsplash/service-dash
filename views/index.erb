@@ -4,6 +4,19 @@
     <title>Unsplash Services Status</title>
   </head>
   <body>
-    <h1>Oh hai</h1>
+    <h1>Is anything on fire?</h1>
+
+    <table>
+
+      <% @services.each do |service| %>
+        <tr class="service">
+          <td class="indicator"><%= service.operational? ? "👌" : "🔥" %></td>
+          <td class="name"><a href="<%= service.status_url %>"><%= service.name %></a></td>
+        </tr>
+      <% end %>
+
+    </table>
+
+
   </body>
 </html>

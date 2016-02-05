@@ -1,5 +1,6 @@
 require "sinatra"
 require "tilt/erb"
+require "mechanize"
 require "config_env"
 require "./dash"
 
@@ -12,4 +13,5 @@ run Sinatra::Application
 #     username == ENV["USERNAME"] && password == ENV["PASSWORD"]
 #   end
 # end
+
 
