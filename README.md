@@ -2,7 +2,7 @@
 
 Sometimes your thing goes down because someone else's thing went down. But it can be hard to tell which thing it was, you know? If only we could summarize all those separate status pages in one place. OH WAIT.
 
-It's a bit ugly and fragile, but then again aren't we all?
+It's a bit ugly and a bit fragile, but then again aren't we all?
 
 ## Configuration
 
