@@ -13,3 +13,7 @@ To protect the page via http basic auth, set the `USERNAME` and `PASSWORD` envir
 ## License
 
 The code is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+----
+
+A [#makeday](https://makeday.unsplash.com/) project by [Unsplash](https://unsplash.com/).
